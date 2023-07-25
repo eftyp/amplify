@@ -11,8 +11,8 @@ email: your-email@domain.com
 description: >
   Awesome site description here
 logo: "/assets/images/logo.jpg"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mridhoan.github.io/amplify/" # the base hostname & protocol for your site
+baseurl: "https://mridhoan.github.io/amplify/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Your Name'
