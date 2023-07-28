@@ -13,13 +13,14 @@ layout: default
       <p>
         <amp-img width="400" height="400" layout="responsive" src="https://mridhoan.github.io/images/indigo.png"></amp-img>
       {{ page.title }} - Post
-    </section>
-     <ul>
+        <ul>
         {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:10 %}
         {% for post in posts %}
           {% include related-post.html %}
         {% endfor %}
       </ul>
+    </section>
+     
     <footer class="post-footer">
       <section class="share">
         <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
