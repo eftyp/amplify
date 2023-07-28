@@ -10,7 +10,7 @@ title: Blog
 email: your-email@domain.com
 description: >
   
-logo: "/assets/images/logo.jpg"
+logo: "https://mridhoan.github.io/images/indigo.png"
 baseurl: "https://eftyp.github.io/amplify" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
