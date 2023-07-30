@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="https://img.uqnq.my.if/uqnqblack.png"></amp-img>
-## About
+<amp-img width="600" height="600" layout="responsive" src="https://img.uqnq.my.if/uqnqblack.png"></amp-img>
 Psychic
 ## Information
 Trusted psychic
