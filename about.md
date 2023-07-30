@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img>
-My Blog
+<amp-img width="600" height="300" layout="responsive" src="https://img.uqnq.my.if/uqnqblack.png"></amp-img>
+## About
+Psychic
+## Information
+Trusted psychic
+### Email me
+To website
 
