@@ -2,6 +2,7 @@
 layout: default
 ---
 <main class="content" role="main">
+  {% include ad.html %}
   <article class="post">
     <div class="post-meta">
       <h1 class="post-title">{{ page.title }}</h1>
@@ -15,7 +16,7 @@ layout: default
         
       {{ page.title }} - Post
       <p>And</p>
-      {% include ad.html %}
+      
     </section>
      <ul>
         {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:10 %}
